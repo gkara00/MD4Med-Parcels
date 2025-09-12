@@ -1,0 +1,8 @@
+parcels
+numpy
+xarray
+matplotlib
+pandas
+netcdf4
+cartopy
+zarr
