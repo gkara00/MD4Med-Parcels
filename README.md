@@ -1,16 +1,15 @@
 # OceanParcels + Copernicus Marine: Sample Jupyter Notebooks
 
-This repository provides example Jupyter notebooks for running the **OceanParcels**](https://oceanparcels.org/) Lagrangian particle tracking framework using Copernicus Marine Service (CMEMS) data, and for visualizing simulation results such as particle trajectories.
+This repository provides example Jupyter notebooks for running the [**OceanParcels**](https://oceanparcels.org/) Lagrangian particle tracking framework using Copernicus Marine Service (CMEMS) data, and for visualizing simulation results such as particle trajectories.
 
 ## Repository structure
-- cmems_request.sh    # Download CMEMS ocean currents / wave data
-- build_fieldset.ipynb         # Build OceanParcels fieldsets (currents + Stokes drift)
-- run_parcels.ipynb            # Run OceanParcels simulations
-- visualize_traj.ipynb         # Plot trajectories
+- cmems_request.sh (Download CMEMS ocean currents / stokes drift data; Mediterranean Sea Physics and Wave reanalysis products)
+- run_parcels.ipynb (Run OceanParcels simulations)
+- visualize_traj.ipynb (Plot trajectories)
 
 ## Dependencies
 
-- Python 3.9+ ((recommended via conda))
+- Python 3.9+ (recommended via conda)
 - [Parcels](https://oceanparcels.org/)
 - [copernicusmarine toolbox](https://help.marine.copernicus.eu/en/articles/7949409-copernicus-marine-toolbox-introduction)
 - jupyter notebook
